@@ -2,12 +2,12 @@ import 'package:shopping_list/data/dummyCategories.dart';
 
 import 'package:shopping_list/models/shopping_item.dart';
 
-var shopingItems = [
+var shoppingItems = [
   ShoppingItem(
     id: 1,
     productName: 'Apple',
     productCategory: categories[1],
-    status: false,
+    status: true,
     quantity: 2,
   ),
   ShoppingItem(

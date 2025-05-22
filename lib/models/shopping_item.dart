@@ -5,13 +5,13 @@ class ShoppingItem {
     required this.id,
     required this.productName,
     required this.productCategory,
-    required this.status,
+    this.status = false,
     required this.quantity,
   });
 
   final id;
   final String productName;
   final Category productCategory;
-  final bool status;
+  bool status;
   final int quantity;
 }
